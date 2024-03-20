@@ -1,19 +1,44 @@
 name: coffe_shop_ui
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.1 <4.0.0'
+  sdk: ">=3.3.1 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_statusbarcolor_ns: ^0.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  # flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: gilex
+      fonts:
+        - asset: assets/fonts/gilex.ttf
+    - family: gillight
+      fonts:
+        - asset: assets/fonts/gillight.ttf
+    - family: gilmed
+      fonts:
+        - asset: assets/fonts/gilmed.ttf
+    - family: gilreg
+      fonts:
+        - asset: assets/fonts/gilreg.ttf
+    - family: gilsem
+      fonts:
+        - asset: assets/fonts/gilsem.ttf
+    - family: gilbold
+      fonts:
+        - asset: assets/fonts/gilbold.ttf
+    - family: gilthin
+      fonts:
+        - asset: assets/fonts/gilthin.ttf
+  assets:
+    - assets/images/
